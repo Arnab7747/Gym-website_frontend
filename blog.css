@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/img/blog/pexels-adrien-olichon-3137072.jpg);
+  
+    padding-left: 40px;
+    padding-right: 40px;
+    
+
+}
+.main{
+    margin:100px;
+}
+
+
+.blogs,.sidebar{
+    display: inline-block;
+    
+    font-size: 25px;
+    list-style: none;    
+    
+}
+
+.sidebar{
+    display: flex;
+    float: right;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    padding: 45px;
+   
+}
+.blogs{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    padding: 25px;
+}
+#blg1img{
+   height:400px;
+   width: 400px;
+}
+.mid {
+    display: block;
+    width: 70%;
+    margin: 0px auto;
+
+}
+
+.navbar {
+    display:block;
+    background-color: black;opacity:0.7;
+    padding:32px;
+    border-radius:0px 0px 20px 20px ;
+    box-shadow: 1px 1px 1px #ffffff, -1px -1px 1px rgb(0, 0, 0);
+    margin: 0;
+    position: fixed;
+
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 67px 0px 90px;
+    color:white;
+    font-size: 20px;
+}
+
+.left {
+    display: block;
+    position: absolute;
+    left: 74px;
+    top: 2px;
+
+}
+
+.left img {
+    width: 80px;
+    border-radius: 50%;
+    
+
+}
+.blogheading{
+    display: flex;
+    justify-content: center;
+    
+    font-weight: bold;
+}
+a:link {
+    text-decoration: none;
+    
+}
+a {
+    color: rgb(255, 255, 255);
+  }
+.posts{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}  
+.head{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 20px;
+    padding-top: 50px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    
+    
+}
+.prev,.next{
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #adadad;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10%;
+    text-align: center;
+    box-shadow: 1px 1px 1px #ffffff, -1px -1px 1px rgb(0, 0, 0);
+}
+.prev{
+    margin: 10px;
+}
+.next{
+    margin: 10px;
+}
+
+
