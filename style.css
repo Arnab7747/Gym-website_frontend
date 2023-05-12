@@ -135,7 +135,31 @@ a:link {
 }
 a {
     color: rgb(255, 255, 255);
-  }
+}
 
-    
+
+@media only screen and (max-width: 420px){
+    .mid{
+     display: none;
+    }
+    .header{
+     display: flex;
+     align-items: center;
+    }
+    .left{
+     display: none;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+    }
+    .gain{
+        font-size: 36px;
+    }
+    button{
+        width: 100%;
+    }
+ 
+ 
+}
   
